@@ -1,0 +1,33 @@
+{
+  "name": "npm-test",
+  "version": "0.0.0",
+  "description": "Testing stuff.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intellisquid/npmtest.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "William Hendricks wshendricks@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intellisquid/npmtest/issues"
+  },
+  "homepage": "https://github.com/intellisquid/npmtest#readme"
+}
